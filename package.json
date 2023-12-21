@@ -1,0 +1,33 @@
+{
+  "name": "eventRead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "dev": "npx tsc && npx nodemon ./build/index.js",
+    "build": "npx tsc",
+    "start": "npx tsc && nodemon ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-typescript": "^7.22.5",
+    "@polkadot/api-contract": "^10.9.1",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "web3": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11"
+  }
+}
