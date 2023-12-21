@@ -65,7 +65,7 @@ export default class web3Service {
             } else {
                 endBlock = startBlock + eventBatchSize;
             }
-            log(endBlock, startBlock, "start++++++++++++++++++++");
+            log(endBlock, startBlock, "start+++++++++++++++++++");
 
             // get events
             const event = await getPastEvents(
